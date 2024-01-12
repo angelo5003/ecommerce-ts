@@ -7,3 +7,24 @@
   padding: 0;
   font-family: "Kumbh Sans", sans-serif;
 }
+
+@layer utilities {
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 14rem;
+    z-index: 11;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 21.8rem;
+  }
+
+  .image-btn {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 50%;
+  }
+}
