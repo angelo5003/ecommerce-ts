@@ -35,7 +35,7 @@ const NavBar = () => {
           {menu ? <MenuItems handleShowMenu={handleShowMenu} /> : null}
 
           <div className="flex-1">
-            <a className="btn btn-ghost text-xl">sneakers</a>
+            <a className="btn btn-ghost text-3xl font-normal">sneakers</a>
           </div>
           <div className="flex-none">
             <img src={profileImg} alt="profile" className="w-12" />
