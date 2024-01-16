@@ -8,12 +8,15 @@ const MenuItems: React.FC<NavBarProps> = ({ handleShowMenu }) => {
   return (
     <>
       <button
-        className="absolute left-3 top-2 z-10 appearance-none"
+        className="absolute left-3 top-2 z-[21] appearance-none"
         onClick={handleShowMenu}
       >
         <MdOutlineClose className="cursor-pointer" />
       </button>
-      <ul className="menu bg-base-200 w-56 absolute top-0 h-screen items-start pt-12 text-2xl left-0">
+      <ul
+        className="menu bg-base-200 w-56 absolute top-0 h-screen items-start pt-12 text-2xl left-0 z-20
+      "
+      >
         <li>
           <a>Collections</a>
         </li>
