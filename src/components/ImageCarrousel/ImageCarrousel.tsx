@@ -37,10 +37,6 @@ const ImageCarrousel = () => {
     }
   };
 
-  console.log(`currentSlideInfo:`, currentSlide);
-
-  console.log(`imageData:`, imageData);
-
   return (
     <section>
       <h3 className="pl-1.5">

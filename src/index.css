@@ -27,4 +27,25 @@
     background-color: white;
     border-radius: 50%;
   }
+
+  #checkout-btn {
+    background-color: hsl(26, 100%, 55%);
+    color: hsl(0, 0%, 100%);
+  }
+
+  #my_modal_1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 7.5rem;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+  }
+
+  .modal-box {
+    width: 100%;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+  }
 }
