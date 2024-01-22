@@ -43,6 +43,24 @@
     justify-content: center;
   }
 
+  #add-to-cart-btn {
+    background-color: hsl(26, 100%, 55%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+  }
+
+  .amount-btn {
+    color: hsl(26, 100%, 55%);
+  }
+
+  #amount-btn-container {
+    background-color: hsl(25, 100%, 94%);
+  }
+
+  #total-amount-number {
+    color: hsl(0, 0%, 0%);
+  }
+
   .modal-box {
     width: 100%;
     --tw-scale-x: 1;

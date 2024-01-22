@@ -1,4 +1,4 @@
-import ProductImage from "../../assets/images/image-product-1-thumbnail.jpg";
+import ProductImage from "../../../assets/images/image-product-1-thumbnail.jpg";
 import { FaTrashAlt } from "react-icons/fa";
 
 const ProductCard = () => {

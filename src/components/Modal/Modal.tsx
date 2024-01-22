@@ -1,4 +1,4 @@
-import ProductCard from "../ProductCard/ProductCard";
+import ProductCard from "../Product/ProductCard/ProductCard";
 
 type ModalProps = {
   handleShowModal: () => void;
@@ -12,10 +12,6 @@ const Modal: React.FC<ModalProps> = ({ handleShowModal }) => {
           <h3 className="font-bold text-lg pb-5">Cart</h3>
           <hr />
           <ProductCard />
-          {/* <p className="py-4">
-            Press ESC key or click the button below to close
-          </p> */}
-          {/* <div className="modal-action"> */}
           <div className="content-center justify-center flex ">
             <button
               id="checkout-btn"
