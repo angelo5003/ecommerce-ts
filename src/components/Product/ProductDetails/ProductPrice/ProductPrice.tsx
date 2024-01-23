@@ -4,9 +4,11 @@ const ProductPrice = () => {
     <section>
       <div className="mt-12 ">
         <div className="flex items-center justify-around gap-3">
-          <p>$125.00</p>
-          <p>50%</p>
-          <p>$250</p>
+          <p className="text-2xl font-bold	">$125.00</p>
+          <p id="discount" className="w-12 text-center rounded">
+            50%
+          </p>
+          <p className="line-through	">$250</p>
         </div>
         <div
           className="flex items-center justify-around p-2.5 rounded-lg w-80 m-auto mt-2.5 mb-2.5"
