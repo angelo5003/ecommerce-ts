@@ -1,5 +1,18 @@
+import { useState } from "react";
+
 import { MdOutlineShoppingCart } from "react-icons/md";
 const ProductPrice = () => {
+  const [count, setCount] = useState(0);
+
+  const handleIncrement = () => {
+    setCount((prevCount) => prevCount + 1);
+  };
+
+  const handleDecrement = () => {
+    if (count >= 1) {
+      setCount((prevCount) => prevCount - 1);
+    }
+  };
   return (
     <section>
       <div className="mt-12 ">
@@ -14,9 +27,13 @@ const ProductPrice = () => {
           className="flex items-center justify-around p-2.5 rounded-lg w-80 m-auto mt-2.5 mb-2.5"
           id="amount-btn-container"
         >
-          <button className="amount-btn p-1">-</button>
-          <span id="total-amount-number">3</span>
-          <button className="amount-btn p-1">+</button>
+          <button className="amount-btn p-1" onClick={handleDecrement}>
+            -
+          </button>
+          <span id="total-amount-number">{count}</span>
+          <button className="amount-btn p-1" onClick={handleIncrement}>
+            +
+          </button>
         </div>
         <div className="flex justify-center flex-row">
           <button
